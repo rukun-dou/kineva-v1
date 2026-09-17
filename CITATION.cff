@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or the pretrained weights, please cite both the accompanying manuscript and this repository."
+title: "Kineva: pretrained encoder for surgical instrument kinematics"
+version: 1.0.0
+date-released: 2026-09-16
+license: MIT
+type: software
+keywords:
+  - foundation model
+  - surgical kinematics
+  - self-supervised learning
+  - surgical education
+  - neurosurgery simulation
+authors:
+  - family-names: Dou
+    given-names: Rukun
+  - family-names: Uthamacumaran
+    given-names: Abicumaran
+  - family-names: Ballestero
+    given-names: Matheus
+  - family-names: Haddad
+    given-names: Helena
+  - family-names: Ben Bornia
+    given-names: Khouloud
+  - family-names: Cattaneo
+    given-names: Sofia
+  - family-names: Dahmen
+    given-names: Jeanne
+  - family-names: Rinaldo
+    given-names: Mike
+  - family-names: Lam
+    given-names: Kalista
+  - family-names: Kang
+    given-names: Karman
+  - family-names: Giglio
+    given-names: Bianca
+  - family-names: Gueziri
+    given-names: Houssem-Eddine
+  - family-names: Hooshiar
+    given-names: Amir
+  - family-names: Del Maestro
+    given-names: Rolando F.
