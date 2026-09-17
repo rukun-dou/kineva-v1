@@ -31,19 +31,25 @@ tokens = model.encode_patches(x, t)          # (1, 75, 384)
 
 `encode` returns one vector per recording. `encode_patches` returns one token per 16 timesteps in temporal order.
 
+## Data
+
+The sample recordings used in the examples are archived on Zenodo:
+https://doi.org/10.5281/zenodo.22805123
+
 ## License
 
 MIT. See `LICENSE`.
 
 ## Citation
 
-Please cite the Kineva manuscript.
+Please cite the Kineva manuscript, and this repository if you use the weights.
 
 ```bibtex
 @misc{dou2026kineva,
-  title   = {Foundation Models Enable Precise Representation of Surgical Technique Through1 Self-Supervised Learning of Instrument Kinematics},
-  author  = {Dou, Rukun and Uthamacumaran, Abicumaran and Ballestero, Matheus andcHaddad, Helena and Ben Bornia, Khouloud and Cattaneo, Sofia andcDahmen, Jeanne and Rinaldo, Mike and Lam, Kalista and Kang, Karman and Giglio, Bianca and Gueziri, Houssem-Eddine and Hooshiar, Amir and Del Maestro, Rolando F.},
+  title   = {Foundation Models Enable Precise Representation of Surgical Technique Through Self-Supervised Learning of Instrument Kinematics},
+  author  = {Dou, Rukun and Uthamacumaran, Abicumaran and Ballestero, Matheus and Haddad, Helena and Ben Bornia, Khouloud and Cattaneo, Sofia and Dahmen, Jeanne and Rinaldo, Mike and Lam, Kalista and Kang, Karman and Giglio, Bianca and Gueziri, Houssem-Eddine and Hooshiar, Amir and Del Maestro, Rolando F.},
   year    = {2026},
-  version = {1.0.0}
+  version = {1.0.0},
+  url     = {https://github.com/rukun-dou/kineva-v1}
 }
 ```
