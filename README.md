@@ -12,7 +12,7 @@ cd kineva
 pip install -r requirements.txt
 ```
 
-The weights are 86 MB and tracked in the repository, so a clone is all you need.
+The weights are 86 MB and tracked in the repository.
 
 ## Use
 
@@ -40,7 +40,7 @@ MIT. See `LICENSE`.
 Please cite the Kineva manuscript.
 
 ```bibtex
-@misc{dou2026kineva_weights,
+@misc{dou2026kineva,
   title   = {Foundation Models Enable Precise Representation of Surgical Technique Through1 Self-Supervised Learning of Instrument Kinematics},
   author  = {Dou, Rukun and Uthamacumaran, Abicumaran and Ballestero, Matheus andcHaddad, Helena and Ben Bornia, Khouloud and Cattaneo, Sofia andcDahmen, Jeanne and Rinaldo, Mike and Lam, Kalista and Kang, Karman and Giglio, Bianca and Gueziri, Houssem-Eddine and Hooshiar, Amir and Del Maestro, Rolando F.},
   year    = {2026},
